@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="31" failures="2" name="TestSuite" time="3.79" errors="0" skipped="0">
+  <properties>
+    <property name="idea.version" value="2017.2.3"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
+    <property name="java.vm.version" value="25.144-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\Downloads\spring4.x\wangpan\chapter5"/>
+    <property name="java.runtime.version" value="1.8.0_144-b01"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="E:\Downloads\spring4.x\wangpan\chapter5"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="E:\Downloads\spring4.x\wangpan\chapter5\target\surefire\surefirebooter5092337594745302340.jar"/>
+    <property name="java.io.tmpdir" value="C:\Users\wuyan\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.7\bin;C:\Program Files\TortoiseGit\bin;E:\JavaStudy\apache-tomcat-8.5.23-windows-x64\apache-tomcat-8.5.23\bin;E:\JavaStudy\apache-tomcat-8.5.23-windows-x64\apache-tomcat-8.5.23\lib;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\wuyan\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="surefire.test.class.path" value="E:\Downloads\spring4.x\wangpan\chapter5\target\test-classes;E:\Downloads\spring4.x\wangpan\chapter5\target\classes;C:\Users\wuyan\.m2\repository\org\springframework\spring-beans\4.2.2.RELEASE\spring-beans-4.2.2.RELEASE.jar;C:\Users\wuyan\.m2\repository\org\springframework\spring-core\4.2.2.RELEASE\spring-core-4.2.2.RELEASE.jar;C:\Users\wuyan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\wuyan\.m2\repository\org\springframework\spring-context\4.2.2.RELEASE\spring-context-4.2.2.RELEASE.jar;C:\Users\wuyan\.m2\repository\org\springframework\spring-aop\4.2.2.RELEASE\spring-aop-4.2.2.RELEASE.jar;C:\Users\wuyan\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\wuyan\.m2\repository\org\springframework\spring-expression\4.2.2.RELEASE\spring-expression-4.2.2.RELEASE.jar;C:\Users\wuyan\.m2\repository\org\springframework\spring-context-support\4.2.2.RELEASE\spring-context-support-4.2.2.RELEASE.jar;C:\Users\wuyan\.m2\repository\cglib\cglib\3.0\cglib-3.0.jar;C:\Users\wuyan\.m2\repository\org\aspectj\aspectjrt\1.8.1\aspectjrt-1.8.1.jar;C:\Users\wuyan\.m2\repository\org\aspectj\aspectjweaver\1.8.1\aspectjweaver-1.8.1.jar;C:\Users\wuyan\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\wuyan\.m2\repository\org\codehaus\groovy\groovy-all\2.3.6\groovy-all-2.3.6.jar;C:\Users\wuyan\.m2\repository\org\testng\testng\6.8.7\testng-6.8.7.jar;C:\Users\wuyan\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\wuyan\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\wuyan\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\wuyan\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\Users\wuyan\.m2\repository\org\yaml\snakeyaml\1.12\snakeyaml-1.12.jar;C:\Users\wuyan\.m2\repository\org\springframework\spring-test\4.2.2.RELEASE\spring-test-4.2.2.RELEASE.jar;C:\Users\wuyan\.m2\repository\org\springframework\spring-web\4.2.5.RELEASE\spring-web-4.2.5.RELEASE.jar;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\wuyan"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="wuyan"/>
+    <property name="java.class.path" value="E:\Downloads\spring4.x\wangpan\chapter5\target\test-classes;E:\Downloads\spring4.x\wangpan\chapter5\target\classes;C:\Users\wuyan\.m2\repository\org\springframework\spring-beans\4.2.2.RELEASE\spring-beans-4.2.2.RELEASE.jar;C:\Users\wuyan\.m2\repository\org\springframework\spring-core\4.2.2.RELEASE\spring-core-4.2.2.RELEASE.jar;C:\Users\wuyan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\wuyan\.m2\repository\org\springframework\spring-context\4.2.2.RELEASE\spring-context-4.2.2.RELEASE.jar;C:\Users\wuyan\.m2\repository\org\springframework\spring-aop\4.2.2.RELEASE\spring-aop-4.2.2.RELEASE.jar;C:\Users\wuyan\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\wuyan\.m2\repository\org\springframework\spring-expression\4.2.2.RELEASE\spring-expression-4.2.2.RELEASE.jar;C:\Users\wuyan\.m2\repository\org\springframework\spring-context-support\4.2.2.RELEASE\spring-context-support-4.2.2.RELEASE.jar;C:\Users\wuyan\.m2\repository\cglib\cglib\3.0\cglib-3.0.jar;C:\Users\wuyan\.m2\repository\org\aspectj\aspectjrt\1.8.1\aspectjrt-1.8.1.jar;C:\Users\wuyan\.m2\repository\org\aspectj\aspectjweaver\1.8.1\aspectjweaver-1.8.1.jar;C:\Users\wuyan\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\wuyan\.m2\repository\org\codehaus\groovy\groovy-all\2.3.6\groovy-all-2.3.6.jar;C:\Users\wuyan\.m2\repository\org\testng\testng\6.8.7\testng-6.8.7.jar;C:\Users\wuyan\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\wuyan\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\wuyan\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\wuyan\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\Users\wuyan\.m2\repository\org\yaml\snakeyaml\1.12\snakeyaml-1.12.jar;C:\Users\wuyan\.m2\repository\org\springframework\spring-test\4.2.2.RELEASE\spring-test-4.2.2.RELEASE.jar;C:\Users\wuyan\.m2\repository\org\springframework\spring-web\4.2.5.RELEASE\spring-web-4.2.5.RELEASE.jar;"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_144\jre"/>
+    <property name="sun.java.command" value="E:\Downloads\spring4.x\wangpan\chapter5\target\surefire\surefirebooter5092337594745302340.jar E:\Downloads\spring4.x\wangpan\chapter5\target\surefire\surefire3006327442025092736tmp E:\Downloads\spring4.x\wangpan\chapter5\target\surefire\surefire1138539150041891988tmp"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_144"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="C:\Users\wuyan\.m2\repository"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.smart.simple.BeanRetrieveTest" name="testBeanRetrieve" time="0.003"/>
+  <testcase classname="com.smart.dynamic.CustomSchemaTest" name="registerBean" time="0"/>
+  <testcase classname="com.smart.auto.AutowireTest" name="testAutoByName" time="0"/>
+  <testcase classname="com.smart.ditype.DiTypeTest" name="testBoss" time="0"/>
+  <testcase classname="com.smart.ditype.DiTypeTest" name="testCar3" time="0.002"/>
+  <testcase classname="com.smart.ditype.DiTypeTest" name="testCar4" time="0"/>
+  <testcase classname="com.smart.ditype.DiTypeTest" name="testCar5" time="0"/>
+  <testcase classname="com.smart.ditype.DiTypeTest" name="testCar6" time="0"/>
+  <testcase classname="com.smart.ditype.DiTypeTest" name="testCar" time="0"/>
+  <testcase classname="com.smart.ditype.DiTypeTest" name="testCar1" time="0.006"/>
+  <testcase classname="com.smart.attr.BeanAttrDITest" name="testCascadeAttr" time="0"/>
+  <testcase classname="com.smart.attr.BeanAttrDITest" name="testBeanRetrieveChildBoss" time="0.001"/>
+  <testcase classname="com.smart.attr.BeanAttrDITest" name="testBeanRetrieveBoss" time="0.024">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.smart.attr.BeanAttrDITest.testBeanRetrieveBoss(BeanAttrDITest.java:30)
+</failure>
+  </testcase>
+  <testcase classname="com.smart.attr.BeanAttrDITest" name="testBeanRetrieveCar" time="0"/>
+  <testcase classname="com.smart.attr.BeanAttrDITest" name="testBeanRetrieveBoss1" time="0.001"/>
+  <testcase classname="com.smart.attr.BeanAttrDITest" name="testBeanRetrieveBoss3" time="0">
+    <failure message="No bean named &apos;boss3&apos; is defined" type="org.springframework.beans.factory.NoSuchBeanDefinitionException">org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named &apos;boss3&apos; is defined
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:698)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1174)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:283)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1048)
+	at com.smart.attr.BeanAttrDITest.testBeanRetrieveBoss3(BeanAttrDITest.java:35)
+</failure>
+    <system-err>十一月 24, 2017 1:17:19 下午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+信息: Loading XML bean definitions from class path resource [com/smart/injectfun/beans.xml]
+</system-err>
+  </testcase>
+  <testcase classname="com.smart.dynamic.DynamicBeanTest" name="registerBean" time="0"/>
+  <testcase classname="com.smart.attr.ParentContainerBeanTest" name="parent" time="0.08"/>
+  <testcase classname="com.smart.injectfun.InjectFunTest" name="testReplace" time="0.001"/>
+  <testcase classname="com.smart.injectfun.InjectFunTest" name="testLookup" time="0.001"/>
+  <testcase classname="com.smart.anno.AnnoAutowireTest" name="testAutoByName" time="0"/>
+  <testcase classname="com.smart.tagdepend.TagDependTest" name="testReferenceTag" time="0.001"/>
+  <testcase classname="com.smart.tagdepend.TagDependTest" name="testInheritTag" time="0"/>
+  <testcase classname="com.smart.fb.FactoryBeanTest" name="testCarFactoryBean" time="0.001"/>
+  <testcase classname="com.smart.fb.FactoryBeanTest" name="testCollFactoryBean" time="0.002"/>
+  <testcase classname="com.smart.fb.FactoryBeanTest" name="testFieldFactoryBean" time="0.004"/>
+  <testcase classname="com.smart.fb.FactoryBeanTest" name="testPropPathFactoryBean" time="0.005"/>
+  <testcase classname="com.smart.scope.ScopeTest" name="testInject" time="0"/>
+  <testcase classname="com.smart.scope.ScopeTest" name="testGetBean" time="0.003"/>
+  <testcase classname="com.smart.anno.MyComponentTest" name="load" time="0"/>
+  <testcase classname="com.smart.groovy.LogonServiceTest" name="getBean" time="0.484"/>
+</testsuite>

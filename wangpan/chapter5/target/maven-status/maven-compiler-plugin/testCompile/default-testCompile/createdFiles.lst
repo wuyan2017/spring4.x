@@ -1,0 +1,15 @@
+com\smart\attr\ParentContainerBeanTest.class
+com\smart\scope\ScopeTest.class
+com\smart\ditype\DiTypeTest.class
+com\smart\attr\BeanAttrDITest.class
+com\smart\auto\AutowireTest.class
+com\smart\anno\MyComponentTest.class
+com\smart\fb\FactoryBeanTest.class
+com\smart\tagdepend\TagDependTest.class
+com\smart\dynamic\DynamicBeanTest.class
+com\smart\simple\BeanRetrieveTest.class
+com\smart\groovy\LogonServiceTest.class
+com\smart\anno\AnnoAutowireTest.class
+com\smart\injectfun\InjectFunTest.class
+com\smart\dynamic\CustomSchemaTest.class
+com\smart\anno\SimpleTest.class

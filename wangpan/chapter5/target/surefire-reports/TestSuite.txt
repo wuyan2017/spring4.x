@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 31, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 3.794 sec <<< FAILURE!
+testBeanRetrieveBoss(com.smart.attr.BeanAttrDITest)  Time elapsed: 0.024 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.smart.attr.BeanAttrDITest.testBeanRetrieveBoss(BeanAttrDITest.java:30)
+
+testBeanRetrieveBoss3(com.smart.attr.BeanAttrDITest)  Time elapsed: 0 sec  <<< FAILURE!
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'boss3' is defined
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:698)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1174)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:283)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1048)
+	at com.smart.attr.BeanAttrDITest.testBeanRetrieveBoss3(BeanAttrDITest.java:35)
+

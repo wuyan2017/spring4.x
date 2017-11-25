@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" verbose="0" name="Failed suite [Command line suite]" parallel="methods">
+  <test name="Command line test(failed)" parallel="methods">
+    <classes>
+      <class name="com.smart.attr.BeanAttrDITest">
+        <methods>
+          <include name="testBeanRetrieveBoss"/>
+          <include name="testBeanRetrieveBoss3"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.smart.attr.BeanAttrDITest -->
+      <class name="com.smart.scope.ScopeTest">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- com.smart.scope.ScopeTest -->
+      <class name="com.smart.injectfun.InjectFunTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.smart.injectfun.InjectFunTest -->
+      <class name="com.smart.tagdepend.TagDependTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.smart.tagdepend.TagDependTest -->
+      <class name="com.smart.fb.FactoryBeanTest">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- com.smart.fb.FactoryBeanTest -->
+      <class name="com.smart.anno.MyComponentTest">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- com.smart.anno.MyComponentTest -->
+      <class name="com.smart.simple.BeanRetrieveTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.smart.simple.BeanRetrieveTest -->
+      <class name="com.smart.anno.AnnoAutowireTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.smart.anno.AnnoAutowireTest -->
+      <class name="com.smart.auto.AutowireTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.smart.auto.AutowireTest -->
+      <class name="com.smart.ditype.DiTypeTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.smart.ditype.DiTypeTest -->
+      <class name="com.smart.dynamic.DynamicBeanTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.smart.dynamic.DynamicBeanTest -->
+      <class name="com.smart.dynamic.CustomSchemaTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.smart.dynamic.CustomSchemaTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
